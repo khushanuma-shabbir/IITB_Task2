@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Techfest 2025</title>
+
+  <!-- Tailwind & Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body class="neon-bg text-pink-900 font-[Poppins]">
+
+  <!-- Floating Orbs -->
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <div class="orb orb4"></div>
+  <div class="orb orb5"></div>
+
+  <!-- Sparkles Container -->
+  <div id="sparkles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar flex justify-between items-center px-10 py-5 fixed w-full top-0 z-50 backdrop-blur-md bg-white/10 shadow-lg">
+    <h1 class="text-2xl font-bold neon-text">Techfest 2025</h1>
+    <ul class="flex gap-8 text-lg">
+      <li><a href="index.html" class="hover:text-pink-500 transition">Home</a></li>
+      <li><a href="about.html" class="hover:text-pink-500 transition">About</a></li>
+      <li><a href="events.html" class="hover:text-pink-500 transition">Events</a></li>
+      <li><a href="contact.html" class="hover:text-pink-500 transition">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-24 mt-24 flex flex-col items-center text-center">
+    <h2 class="text-4xl font-bold mb-6 neon-text">Contact Us</h2>
+    <p class="text-lg text-pink-900/80 max-w-2xl mb-12">
+      Have questions, suggestions, or want to participate in Techfest 2025? Reach out to our team and we'll get back to you promptly.
+    </p>
+
+    <!-- Contact Form -->
+    <form class="bg-white/20 backdrop-blur-md rounded-3xl p-10 w-full max-w-xl shadow-lg">
+      <div class="mb-6">
+        <label class="block text-pink-900 font-semibold mb-2" for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" class="w-full px-4 py-3 rounded-xl bg-white/30 border border-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400 text-pink-900">
+      </div>
+      <div class="mb-6">
+        <label class="block text-pink-900 font-semibold mb-2" for="email">Email</label>
+        <input type="email" id="email" placeholder="you@example.com" class="w-full px-4 py-3 rounded-xl bg-white/30 border border-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400 text-pink-900">
+      </div>
+      <div class="mb-6">
+        <label class="block text-pink-900 font-semibold mb-2" for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message..." class="w-full px-4 py-3 rounded-xl bg-white/30 border border-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400 text-pink-900"></textarea>
+      </div>
+      <button type="submit" class="w-full py-3 rounded-full bg-pink-600 text-white font-semibold shadow-lg hover:scale-105 hover:bg-pink-500 transition-all glow-button">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <footer class="py-6 text-center text-pink-900/70 text-sm mt-20">
+    © 2025 IIT Bombay Techfest | Designed with 💖 in Baby Pink Neon
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

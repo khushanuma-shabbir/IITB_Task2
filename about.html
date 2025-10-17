@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Techfest 2025</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="neon-bg text-pink-900 font-[Poppins]">
+
+  <!-- Floating Orbs -->
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <div class="orb orb4"></div>
+  <div class="orb orb5"></div>
+
+  <!-- Sparkles Container -->
+  <div id="sparkles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar flex justify-between items-center px-10 py-5 fixed w-full top-0 z-50 backdrop-blur-md bg-white/10 shadow-lg">
+    <h1 class="text-2xl font-bold neon-text">Techfest 2025</h1>
+    <ul class="flex gap-8 text-lg">
+      <li><a href="index.html" class="hover:text-pink-500 transition">Home</a></li>
+      <li><a href="about.html" class="hover:text-pink-500 transition">About</a></li>
+      <li><a href="events.html" class="hover:text-pink-500 transition">Events</a></li>
+      <li><a href="contact.html" class="hover:text-pink-500 transition">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="py-24 text-center mt-24">
+    <h2 class="text-4xl font-bold mb-12 neon-text">About Techfest</h2>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed text-pink-900/80 mb-16">
+      Techfest, IIT Bombay’s annual science and technology festival, is a platform for brilliant minds to showcase innovative solutions, inventions, and ideas that shape the future. 
+      Join thousands of participants across the world for exciting competitions, exhibitions, and workshops.
+    </p>
+
+    <!-- Info Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mb-20">
+  
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+    <img src="images/speaker.jpg" alt="Speaker" class="rounded-xl mb-4 w-full h-48 object-cover">
+    <div>
+      <h3 class="text-2xl font-semibold neon-text mb-2">Inspiring Speakers</h3>
+      <p class="text-pink-900/80">Meet renowned experts and innovators who share their knowledge, experiences, and ideas on cutting-edge technology and entrepreneurship.</p>
+    </div>
+  </div>
+
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+    <img src="images/dron.jpg" alt="Drone Show" class="rounded-xl mb-4 w-full h-48 object-cover">
+    <div>
+      <h3 class="text-2xl font-semibold neon-text mb-2">Drone Show</h3>
+      <p class="text-pink-900/80">Experience mesmerizing drone light shows combining technology and art, lighting up the night sky in perfect synchrony.</p>
+    </div>
+  </div>
+
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+    <img src="images/djnight.jpg" alt="DJ Night" class="rounded-xl mb-4 w-full h-48 object-cover">
+    <div>
+      <h3 class="text-2xl font-semibold neon-text mb-2">DJ Night</h3>
+      <p class="text-pink-900/80">Dance to electrifying beats at our DJ nights featuring top DJs, making your nights at Techfest unforgettable.</p>
+    </div>
+  </div>
+
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+    <img src="images/workshop.jpg" alt="Events" class="rounded-xl mb-4 w-full h-48 object-cover">
+    <div>
+      <h3 class="text-2xl font-semibold neon-text mb-2">Exciting Events</h3>
+      <p class="text-pink-900/80">Participate in diverse competitions, workshops, and exhibitions that challenge creativity, technology, and innovation.</p>
+    </div>
+  </div>
+
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+  <img src="images/participate.jpg" alt="Workshops" class="rounded-xl mb-4 w-full h-48 object-cover"> 
+  <div>
+    <h3 class="text-2xl font-semibold neon-text mb-2">Hands-on Workshops</h3>
+    <p class="text-pink-900/80">Participate in immersive workshops led by experts, explore cutting-edge technology, and gain practical skills to innovate and create at Techfest 2025.</p>
+  </div>
+</div>
+
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+    <img src="images/award.jpg" alt="Awards" class="rounded-xl mb-4 w-full h-48 object-cover">
+    <div>
+      <h3 class="text-2xl font-semibold neon-text mb-2">Awards & Recognition</h3>
+      <p class="text-pink-900/80">Celebrate achievements with awards and recognition for outstanding innovations, projects, and performances.</p>
+    </div>
+  </div>
+
+</div>
+
+    <!-- Visual Gallery -->
+    <h2 class="text-4xl font-bold mb-8 neon-text">Visual Gallery</h2>
+    <div class="overflow-hidden relative max-w-6xl mx-auto">
+      <div id="gallery" class="flex gap-6 animate-scroll">
+        <img src="images/speaker.jpg" alt="Speaker" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/drone show.jpg" alt="Drone Show" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/djnight.jpg" alt="DJ Night" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/events.jpg" alt="Events" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/award.jpg" alt="Awards" class="w-72 h-48 object-cover rounded-2xl">
+        <!-- Duplicate for smooth scroll -->
+        <img src="images/speaker.jpg" alt="Speaker" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/drone show.jpg" alt="Drone Show" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/djnight.jpg" alt="DJ Night" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/events.jpg" alt="Events" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/participate.jpg" alt="Events" class="w-72 h-48 object-cover rounded-2xl">
+        <img src="images/award.jpg" alt="Awards" class="w-72 h-48 object-cover rounded-2xl">
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center text-pink-900/70 text-sm mt-20">
+    © 2025 IIT Bombay Techfest | Designed with 💖 in Baby Pink Neon
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

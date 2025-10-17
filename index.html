@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Techfest 2025 - IIT Bombay</title>
+
+  <!-- Tailwind & Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="neon-bg text-pink-900 font-[Poppins]">
+
+  <!-- Floating Orbs -->
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <div class="orb orb4"></div>
+  <div class="orb orb5"></div>
+
+  <!-- Sparkles Container -->
+  <div id="sparkles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar flex justify-between items-center px-10 py-5 fixed w-full top-0 z-50 backdrop-blur-md bg-white/10 shadow-lg">
+    <h1 class="text-2xl font-bold neon-text">Techfest 2025</h1>
+    <ul class="flex gap-8 text-lg">
+      <li><a href="index.html" class="hover:text-pink-500 transition">Home</a></li>
+      <li><a href="about.html" class="hover:text-pink-500 transition">About</a></li>
+      <li><a href="events.html" class="hover:text-pink-500 transition">Events</a></li>
+      <li><a href="contact.html" class="hover:text-pink-500 transition">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero min-h-screen flex flex-col justify-center items-center text-center relative z-10">
+    <h1 class="text-6xl md:text-7xl font-extrabold mb-6 neon-text">IIT Bombay Techfest 2025</h1>
+    <p class="text-lg md:text-xl mb-8 max-w-2xl text-purple-900">
+      India’s largest science and technology festival, uniting innovation, creativity, and futuristic ideas.
+    </p>
+    <a href="events.html" class="px-8 py-3 rounded-full text-lg font-semibold bg-pink-600 text-white shadow-lg hover:scale-105 hover:bg-pink-500 transition-all glow-button">
+      Explore Events
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-pink-900/70 text-sm">
+    © 2025 IIT Bombay Techfest | Designed with 💖 in Baby Pink Neon
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
